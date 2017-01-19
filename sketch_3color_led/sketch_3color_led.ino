@@ -22,9 +22,13 @@ int PIN_3COLOR_GREEN = 10;  // 삼색 LED의 녹색 조절 핀 정의
 int PIN_3COLOR_BLUE = 11;   // 삼색 LED의 청색 조절 핀 정의
 
 void setup() {
-  pinMode(PIN_BUTTON_RED, INPUT);   // 붉은색 제어핀을 입력 모드로 초기화
-  pinMode(PIN_BUTTON_GREEN, INPUT); // 녹색 제어핀을 입력 모드로 초기화
-  pinMode(PIN_BUTTON_BLUE, INPUT);  // 청색 제어핀을 입력 모드로 초기화
+  pinMode(PIN_BUTTON_RED, INPUT);     // 붉은색 제어핀을 입력 모드로 초기화
+  pinMode(PIN_BUTTON_GREEN, INPUT);   // 녹색 제어핀을 입력 모드로 초기화
+  pinMode(PIN_BUTTON_BLUE, INPUT);    // 청색 제어핀을 입력 모드로 초기화
+
+  pinMode(PIN_3COLOR_RED, OUTPUT);    // 삼색 LED의 붉은색 제어핀을 출력 모드로 초기화
+  pinMode(PIN_3COLOR_GREEN, OUTPUT);  // 삼색 LED의 녹색 제어핀을 출력 모드로 초기화
+  pinMode(PIN_3COLOR_BLUE, OUTPUT);   // 삼색 LED의 청색 제어핀을 출력 모드로 초기화
 }
 
 void loop() {
