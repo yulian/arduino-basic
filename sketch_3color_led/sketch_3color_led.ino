@@ -5,7 +5,7 @@
  * 빛의 세기 제어는 디지털 신호를 아날로그 신호처럼 사용할 수 있게 하는 PWM(Pulse Width Modulation)을 이용한다.
  * 더 많은 정보는 토이 메이커스 http://cafe.naver.com/toymakers
  * 
- * 2017년 1월 19일 수정됨 by 소리향기
+ * 2017년 1월 19일 수정됨 by 율리안(Yulian)
  * 
  */
 

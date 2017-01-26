@@ -5,7 +5,7 @@
  * 보드 유형에 상관없이 LED_BUILTIN 변수명으로 내장 LED 제어가 가능함
  * 더 많은 정보는 토이 메이커스 http://cafe.naver.com/toymakers
  * 
- * 2017년 1월 6일 수정됨 by 소리향기
+ * 2017년 1월 6일 수정됨 by 율리안(Yulian)
  * 
  */
 
