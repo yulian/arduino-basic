@@ -10,7 +10,7 @@
 
 #include <SoftwareSerial.h> // 소프트웨어로 시리얼통신 제어를 위한 라이브러리 참조
 
-SoftwareSerial BTSerial(2, 3);  // 블루투스 모듈의 TX:2번핀 RX:3번핀
+SoftwareSerial BTSerial(12, 13);  // 블루투스 모듈의 TX:12번핀 RX:13번핀
 
 void setup() {
   // 시리얼통신 초기화
